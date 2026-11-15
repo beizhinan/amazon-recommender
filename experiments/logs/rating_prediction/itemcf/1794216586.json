@@ -1,0 +1,24 @@
+{
+  "model": "itemcf",
+  "config": "{\"k\": 100, \"shrink\": 25}",
+  "mse": 0.871174,
+  "mae": 0.654332,
+  "rmse": 0.933367,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.5703,
+  "fit_seconds": 320.7,
+  "predict_seconds": 320.7,
+  "total_seconds": 320.8,
+  "run_time": "2026-11-09 17:29:46",
+  "note": "",
+  "metrics": {
+    "mae": 0.654332,
+    "rmse": 0.933367,
+    "mse": 0.871174,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.5703
+  }
+}

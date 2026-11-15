@@ -1,0 +1,24 @@
+{
+  "model": "bias",
+  "config": "{\"reg_i\": 10, \"reg_u\": 10}",
+  "mse": 0.832845,
+  "mae": 0.682607,
+  "rmse": 0.912603,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.0,
+  "fit_seconds": 2.7,
+  "predict_seconds": 2.7,
+  "total_seconds": 2.8,
+  "run_time": "2026-11-09 17:13:58",
+  "note": "",
+  "metrics": {
+    "mae": 0.682607,
+    "rmse": 0.912603,
+    "mse": 0.832845,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.0
+  }
+}

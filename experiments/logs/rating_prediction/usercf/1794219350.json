@@ -1,0 +1,24 @@
+{
+  "model": "usercf",
+  "config": "{\"k\": 100, \"shrink\": 25}",
+  "mse": 0.881595,
+  "mae": 0.672784,
+  "rmse": 0.938933,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.6407,
+  "fit_seconds": 561.7,
+  "predict_seconds": 561.7,
+  "total_seconds": 561.7,
+  "run_time": "2026-11-09 18:15:50",
+  "note": "",
+  "metrics": {
+    "mae": 0.672784,
+    "rmse": 0.938933,
+    "mse": 0.881595,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.6407
+  }
+}

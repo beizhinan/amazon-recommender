@@ -1,0 +1,24 @@
+{
+  "model": "svd",
+  "config": "{\"n_epochs\": 30, \"n_factors\": 50, \"reg_all\": 0.1}",
+  "mse": 0.821341,
+  "mae": 0.667157,
+  "rmse": 0.906279,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.0,
+  "fit_seconds": 229.5,
+  "predict_seconds": 229.5,
+  "total_seconds": 229.6,
+  "run_time": "2026-11-09 18:39:38",
+  "note": "",
+  "metrics": {
+    "mae": 0.667157,
+    "rmse": 0.906279,
+    "mse": 0.821341,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dataset": "Books",
+  "records": {
+    "train": 7142099,
+    "test": 1755942
+  },
+  "users": 603668,
+  "items": 367965,
+  "sparsity": 0.999968,
+  "rating_mean": 4.2501,
+  "rating_distribution": {
+    "1": 260586,
+    "2": 332953,
+    "3": 766088,
+    "4": 1782825,
+    "5": 3999647
+  },
+  "gini_item": 0.6037,
+  "gini_user": 0.5099,
+  "ks_statistic": 0.00124,
+  "cold_items_lt5": 56271,
+  "single_rating_items": 420,
+  "test_row_item_coverage": 1.0,
+  "test_item_coverage": 0.9999,
+  "test_items_only": 17,
+  "user_bias_std": 0.6645,
+  "item_bias_std": 0.5432,
+  "top_tokens": {
+    "book": 166190,
+    "read": 71851,
+    "story": 60703,
+    "like": 43209,
+    "just": 40053,
+    "love": 35765,
+    "good": 33674,
+    "really": 30892,
+    "characters": 30677,
+    "books": 30394
+  },
+  "time_range": [
+    "1996-05-20",
+    "2014-07-23"
+  ],
+  "checks": {
+    "missing_core": 0,
+    "duplicates": 0,
+    "leakage_overlap": 0
+  }
+}

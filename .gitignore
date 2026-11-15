@@ -1,0 +1,42 @@
+# ---- 数据（原始 + 派生，体积大，均可用脚本重新生成）----
+data/raw/
+data/processed/
+
+# ---- 实验日志与缓存（体积大，非源码）----
+experiments/logs/**/*.log
+experiments/logs/**/*.pkl
+experiments/logs/**/*.npy
+experiments/logs/**/*.npz
+experiments/logs/**/*.parquet
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- 环境与凭证 ----
+.env
+.env.*
+.venv/
+venv/
+env/
+*.pem
+*.key
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db

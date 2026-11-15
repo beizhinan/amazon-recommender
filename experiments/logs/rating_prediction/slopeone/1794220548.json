@@ -1,0 +1,24 @@
+{
+  "model": "slopeone",
+  "config": "{\"k\": 100, \"min_count\": 2}",
+  "mse": 0.922117,
+  "mae": 0.668738,
+  "rmse": 0.960269,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.4573,
+  "fit_seconds": 306.1,
+  "predict_seconds": 306.1,
+  "total_seconds": 306.1,
+  "run_time": "2026-11-09 18:35:48",
+  "note": "",
+  "metrics": {
+    "mae": 0.668738,
+    "rmse": 0.960269,
+    "mse": 0.922117,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.4573
+  }
+}

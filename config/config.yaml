@@ -1,0 +1,23 @@
+# 项目配置：数据选择与预处理
+
+dataset:
+  name: Books
+  # Amazon 5-core（small subset），原始托管于 Stanford SNAP
+  url: https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Books_5.json.gz
+  raw_file: data/raw/reviews_Books_5.json.gz
+
+preprocessing:
+  seed: 42            # 随机种子，保证划分可复现
+  test_ratio: 0.2     # 每个用户 20% 评分作为测试集
+  min_rating: 1
+  max_rating: 5
+  dedup: keep_latest  # 同一 (user, item) 多条记录时保留时间戳最新的一条
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed/Books
+  train_csv: data/processed/Books/train.csv
+  test_csv: data/processed/Books/test.csv
+  train_parquet: data/processed/Books/train.parquet
+  test_parquet: data/processed/Books/test.parquet
+  stats_json: data/processed/Books/stats.json

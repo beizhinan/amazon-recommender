@@ -1,0 +1,24 @@
+{
+  "model": "usermean",
+  "config": "{\"reg_u\": 25}",
+  "mse": 0.955282,
+  "mae": 0.75343,
+  "rmse": 0.977385,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.0,
+  "fit_seconds": 0.1,
+  "predict_seconds": 0.1,
+  "total_seconds": 0.2,
+  "run_time": "2026-11-09 17:13:37",
+  "note": "",
+  "metrics": {
+    "mae": 0.75343,
+    "rmse": 0.977385,
+    "mse": 0.955282,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.0
+  }
+}

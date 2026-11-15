@@ -1,0 +1,24 @@
+{
+  "model": "global",
+  "config": "{}",
+  "mse": 1.115561,
+  "mae": 0.838703,
+  "rmse": 1.056201,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.0,
+  "fit_seconds": 0.0,
+  "predict_seconds": 0.0,
+  "total_seconds": 0.1,
+  "run_time": "2026-11-09 17:13:37",
+  "note": "",
+  "metrics": {
+    "mae": 0.838703,
+    "rmse": 1.056201,
+    "mse": 1.115561,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.0
+  }
+}

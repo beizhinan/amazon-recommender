@@ -1,0 +1,24 @@
+{
+  "model": "ncf",
+  "config": "{\"epochs\": 10, \"gmf_dim\": 32, \"layers\": [64, 32, 16], \"mlp_dim\": 32}",
+  "mse": 0.825362,
+  "mae": 0.657603,
+  "rmse": 0.908494,
+  "n_evaluated": 1755942,
+  "coverage": 1.0,
+  "fallback_rate": 0.0,
+  "fit_seconds": 225.3,
+  "predict_seconds": 225.3,
+  "total_seconds": 225.3,
+  "run_time": "2026-11-09 18:59:57",
+  "note": "",
+  "metrics": {
+    "mae": 0.657603,
+    "rmse": 0.908494,
+    "mse": 0.825362,
+    "n": 1755942,
+    "n_evaluated": 1755942,
+    "coverage": 1.0,
+    "fallback_rate": 0.0
+  }
+}
